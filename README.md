@@ -1,5 +1,7 @@
 # UpwardReady
 
+![Getting Started](images/UpwardReadyLogoCloseUp.png)
+
 UpwardReady is a website that provides resources and motivation to high school seniors who are preparing for college and beyond. It covers topics such as applying to college, tackling senioritis, writing college essays, getting recommendation letters, and more.
 
 ## Features
