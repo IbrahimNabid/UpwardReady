@@ -4,7 +4,6 @@
  <meta charset="UTF-8"> <!-- Added meta tag to specify character encoding -->
  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added meta tag to make the website responsive -->
  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <title>
  UpwardReady | Elevating the Future, One Student at a Time.
  </title>
@@ -47,21 +46,43 @@
         :'fa fa-bars'
     }
  </script>
- <main> <!-- Added main element to wrap the main content of the website -->
- <h1> Be Empowered with Inspirational Quotes! </h1>
- <h4> Inspirational quotes and affirmations can be powerful tools for personal growth and motivation. They can provide us with the wisdom and guidance we need to overcome challenges and achieve our goals. By reading and repeating positive affirmations, we can rewire our thought patterns and change the way we think and feel about ourselves and the world around us. </h4>
+ <section id="contact"> <!-- Added section element to group related content and give it an id for easier navigation --> 
+ <h2> Want to get in touch? Want certain resources or new content? Let us know!</h2> 
+ <p> Have questions or suggestions? We're here to listen. Get in touch with us by filling out the form below. We value your feedback and are committed to assisting you in your journey! </p>
+ <form action="action_page.php">
+      <h1>Contact Form</h1>
+      <p>Please fill out this form to reach us!</p>
+  
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Full Name" name="name" id="name" required>
+      <br>
 
- <section id="inspiration"> <!-- Added section element to group related content and give it an id for easier navigation -->
- <h2> Inspirational Quotes </h2> <!-- Changed heading level from h1 to h2 to create a hierarchy of headings -->
- <p> Stay motivated with motivating quotes. Find inspiration to pursue your dreams, overcome challenges, and unlock your true potential. Click on the button below to become inspired. </p>
- <h2 id="quote"> </h2>
- <button id="getQuote">Click to become inspired!</button>
- </section>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      <br>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br>
+
+      <button type="submit" class="send">Send</button>
+  </form>
+  
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // Validate form data
+      // Submit form data to server-side script
+    });
+  </script>
+  
+</section>
+
  </main>
 
  <footer> <!-- Added footer element to display some information at the bottom of the page -->
  <p>© 2023 UpwardReady. All rights reserved.</p> <!-- Added a copyright notice -->
  </footer>
- <script src="inspiration.js"></script>
+ <script src="server.js"></script>
 </body>
 </html>
