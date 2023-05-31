@@ -32,20 +32,6 @@
             <li><a href="contact.html"> Contact </a></li>
         </div>
     </header>
- <script>
-    const toggleBtn = document.querySelector('.toggle_btn')
-    const toggleBtnIcon = document.querySelector('.toggle_btn i')
-    const dropDownMenu = document.querySelector('.dropdown_menu')
-
-    toggleBtn.onclick = function () {
-        dropDownMenu.classList.toggle('open')
-        const isOpen = dropDownMenu.classList.contains('open')
-
-        toggleBtnIcon.classList = isOpen
-        ?'fa fa-times'
-        :'fa fa-bars'
-    }
- </script>
  <main> <!-- Added main element to wrap the main content of the website -->
  <h1> Scholarships & Resources </h1>
  <h2> Scholarships </h2> <!-- Changed heading level from h1 to h2 to create a hierarchy of headings -->
@@ -61,5 +47,6 @@
  <footer> <!-- Added footer element to display some information at the bottom of the page -->
  <p>© 2023 UpwardReady. All rights reserved.</p> <!-- Added a copyright notice -->
  </footer>
+ <script src="navbar.js"></script>
 </body>
 </html>

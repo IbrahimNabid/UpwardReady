@@ -32,20 +32,6 @@
             <li><a href="contact.html"> Contact </a></li>
         </div>
     </header>
- <script>
-    const toggleBtn = document.querySelector('.toggle_btn')
-    const toggleBtnIcon = document.querySelector('.toggle_btn i')
-    const dropDownMenu = document.querySelector('.dropdown_menu')
-
-    toggleBtn.onclick = function () {
-        dropDownMenu.classList.toggle('open')
-        const isOpen = dropDownMenu.classList.contains('open')
-
-        toggleBtnIcon.classList = isOpen
-        ?'fa fa-times'
-        :'fa fa-bars'
-    }
- </script>
  <section id="contact"> <!-- Added section element to group related content and give it an id for easier navigation --> 
  <h2> Want to get in touch? Want certain resources or new content? Let us know!</h2> 
  <p> Have questions or suggestions? We're here to listen. Get in touch with us by filling out the form below. We value your feedback and are committed to assisting you in your journey! </p>
@@ -61,28 +47,18 @@
       <input type="text" placeholder="Enter Email" name="email" id="email" required>
       <br>
 
-      <label for="message">Message:</label>
+      <label for="message"><b>Message:</b></label>
       <textarea id="message" name="message" required></textarea>
       <br>
 
       <button type="submit" class="send">Send</button>
   </form>
-  
-  <script>
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-      event.preventDefault();
-      // Validate form data
-      // Submit form data to server-side script
-    });
-  </script>
-  
 </section>
-
  </main>
-
- <footer> <!-- Added footer element to display some information at the bottom of the page -->
- <p>© 2023 UpwardReady. All rights reserved.</p> <!-- Added a copyright notice -->
+ <footer> <!-- Added footer element to display information at the bottom of the page -->
+ <p>© 2023 UpwardReady. All rights reserved.</p> 
  </footer>
  <script src="server.js"></script>
+ <script src="navbar.js"></script>
 </body>
 </html>

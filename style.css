@@ -81,8 +81,8 @@ h1, h2, h4, p, h3 {
 
   /* Dropdown menu */
   .dropdown_menu {
-    display:none;
-    height: 0px;
+    display: none;
+    height: fit-content;
     position: absolute;
     right: 2rem;
     top: 60px;
@@ -91,7 +91,7 @@ h1, h2, h4, p, h3 {
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden; 
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+    transition: height .0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
   }
 
   .dropdown_menu.open{

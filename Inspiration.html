@@ -33,20 +33,6 @@
             <li><a href="contact.html"> Contact </a></li>
         </div>
     </header>
- <script>
-    const toggleBtn = document.querySelector('.toggle_btn')
-    const toggleBtnIcon = document.querySelector('.toggle_btn i')
-    const dropDownMenu = document.querySelector('.dropdown_menu')
-
-    toggleBtn.onclick = function () {
-        dropDownMenu.classList.toggle('open')
-        const isOpen = dropDownMenu.classList.contains('open')
-
-        toggleBtnIcon.classList = isOpen
-        ?'fa fa-times'
-        :'fa fa-bars'
-    }
- </script>
  <main> <!-- Added main element to wrap the main content of the website -->
  <h1> Be Empowered with Inspirational Quotes! </h1>
  <h4> Inspirational quotes and affirmations can be powerful tools for personal growth and motivation. They can provide us with the wisdom and guidance we need to overcome challenges and achieve our goals. By reading and repeating positive affirmations, we can rewire our thought patterns and change the way we think and feel about ourselves and the world around us. </h4>
@@ -63,5 +49,6 @@
  <p>© 2023 UpwardReady. All rights reserved.</p> <!-- Added a copyright notice -->
  </footer>
  <script src="inspiration.js"></script>
+ <script src="navbar.js"></script>
 </body>
 </html>
