@@ -1,6 +1,6 @@
 h1, h2, h4, p, h3 {
     color: rgb(0, 0, 0);
-    font-family: 'Poppins', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
   }
   
@@ -10,6 +10,10 @@ h1, h2, h4, p, h3 {
     background-image: url(images/color-pencils.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .quote {
+    background-color: aliceblue;
   }
   
   
@@ -36,11 +40,17 @@ h1, h2, h4, p, h3 {
     position: relative;
     padding: 0 20rem;
   }
+
+  button {
+    background-color: #FFCCCB;
+    font-size: 24px;
+    border-radius: 24px;
+  }
   
 
   .navbar {
     width: 100%;
-    height: 250px;
+    height: 235px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
