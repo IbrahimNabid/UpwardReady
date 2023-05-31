@@ -26,11 +26,7 @@ To run the website locally, you need to have a web browser and a code editor ins
 
 ## Usage
 
-You can use the website as a visitor or as a contributor. As a visitor, you can browse the different sections of the website and access the resources and motivation provided. As a contributor, you can suggest new resources, quotes, or stories to be added to the website by contacting the website owner.
-
-## License
-
-The website is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0). You can use, modify, and distribute it for any purpose, as long as you make your source code available under the same license and give credit to the original author. You can find a copy of the license in the LICENSE file of this repository.
+You can use the website as a visitor or as a contributor. As a visitor, you can browse the different sections of the website and access the resources and motivation provided. As a contributor, you can suggest new resources, or ideas to be added to the website by contacting the website owner.
 
 ## Acknowledgements
 
