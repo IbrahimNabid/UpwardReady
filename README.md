@@ -22,6 +22,8 @@ UpwardReady is a website that provides resources and motivation to high school s
 
 ## Installation
 
+You may check out the website here: https://upwardready.netlify.app/
+
 To run the website locally, you need to have a web browser and a code editor installed on your computer. You can download the source code from this repository and open the index.html file in your browser.
 
 ## Usage
