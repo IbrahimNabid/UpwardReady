@@ -10,9 +10,9 @@ UpwardReady is a website that provides resources and motivation to high school s
 
 - A homepage that introduces the website and its purpose
 - A navigation bar that links to different sections of the website
-- A resources section that contains useful links and guides for high school seniors
-- A motivation section that displays inspirational quotes and stories from successful people
-- A contact section that allows users to send feedback or questions to the website owner
+- A resources/Scholarships section that contains useful links and guides for high school seniors
+- An Inspirational section that displays inspirational quotes and stories from successful people. User gets real-time inspirational quotes from an Quotes API
+<!-- - A contact section that allows users to send feedback or questions to the website owner -->
 
 ## Technologies
 
